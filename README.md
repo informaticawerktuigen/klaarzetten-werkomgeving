@@ -45,9 +45,17 @@ Volg onderstaande stappen om de nodige packages te installeren
 ``` shell 
 $ sudo apt update
 $ sudo apt upgrade
-$ sudo apt install -y build-essential git texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-lang-european ddd
+$ sudo apt install build-essential dkms linux-headers-$(uname -r)
 ```
-3. (Optioneel) Installeer Visual Studio Code met het commando
+3. Klik in het VirtualBox-menu op Device -> Insert Guest Additions CD Image. Voer vervolgens de installatie van de Guest Additions uit door op Run te klikken en je wachtwoord in te geven.
+4. Zet na deze installatie de virtuele machine uit
+5. Ga in de VirtualBox manager naar General -> Advanced en zet Shared Clipboard en Drag'n'Drop op bidirectional. Dit laat je toe om te copy-pasten naar de Virtuele Machine en om bestanden te slepen.
+6. Start de machine terug op en voer onderstaand commando uit. Vanaf nu kan je commando's kopieren en plakken.
+  
+``` shell
+$ sudo apt install -y git texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-lang-european ddd
+```
+7. (Optioneel) Installeer Visual Studio Code met het commando
 
 ``` shell
 $ sudo snap install --classic code
