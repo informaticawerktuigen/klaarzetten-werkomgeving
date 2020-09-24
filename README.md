@@ -1,6 +1,5 @@
 Deze tutorial geeft je de nodige informatie om je eigen machine klaar te maken voor het vak [Informatica Werktuigen](https://onderwijsaanbod.kuleuven.be/syllabi/n/G0Q30EN.htm). Volg deze instructies vóór de start van de eerste oefenzitting.
 
-
 <!-- TOC -->
 
 - [Stap 1: Virtuele Machine met Ubuntu](#stap-1-virtuele-machine-met-ubuntu)
@@ -11,6 +10,9 @@ Deze tutorial geeft je de nodige informatie om je eigen machine klaar te maken v
 
 <!-- /TOC -->
 
+Een videoversie van deze instructiepagina is beschikbaar:
+
+[![Bekijk de video](https://img.youtube.com/vi/kzrfRC0TaYg/hqdefault.jpg)](https://www.youtube.com/watch?v=kzrfRC0TaYg)
 
 # Stap 1: Virtuele Machine met Ubuntu
 
